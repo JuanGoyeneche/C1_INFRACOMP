@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C21E16B9-5965-A95F-6B5F-9739983F1CAD" name="afiliado">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:21:52 UTC</createdTime>
+<ownerDesignName>B1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_documento" id="4FF5C60F-36D5-B741-B847-50634063A838">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>B1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_documento" id="78BCF39D-5195-CB2C-775A-97D0106A509F">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>B1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3CCB5A05-11AC-0690-AC80-6339D696B3BB">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>B1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="5E28B770-B3A0-ED5A-19C2-E007FE5CA381">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>B1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_residencia" id="2107EB19-4098-81DA-EC54-DEED5157CC74">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>B1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_afiliado" id="C989428B-2D13-9B28-74B6-197587274A14">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>B1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85CB02EC-B32C-950D-FC68-AAA497BC1800" name="afiliado_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>B1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FF5C60F-36D5-B741-B847-50634063A838"/>
+<colUsage columnID="78BCF39D-5195-CB2C-775A-97D0106A509F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

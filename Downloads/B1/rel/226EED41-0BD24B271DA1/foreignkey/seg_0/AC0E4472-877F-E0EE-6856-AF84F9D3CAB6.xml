@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC0E4472-877F-E0EE-6856-AF84F9D3CAB6" containerWithKeyObject="DE05C10D-2D2F-1F20-D053-B1ED46C06C98" localFKIndex="59026A49-6BCC-BA61-EC64-8F13B295E8F9" name="IPS_EPS_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:39:14 UTC</createdTime>
+<ownerDesignName>B1</ownerDesignName>
+<referredTableLongName>EPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96A04181-59FD-8862-BAE3-C190CE18B097</referredTableID>
+<keyObject>8401EEA7-BC29-CA31-70E0-43896975EF18</keyObject>
+<referredKeyID>8401EEA7-BC29-CA31-70E0-43896975EF18</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
