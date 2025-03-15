@@ -1,0 +1,281 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C21E16B9-5965-A95F-6B5F-9739983F1CAD" name="Beneficiario">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:21:52 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_documento" id="4FF5C60F-36D5-B741-B847-50634063A838">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_documento" id="78BCF39D-5195-CB2C-775A-97D0106A509F">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3CCB5A05-11AC-0690-AC80-6339D696B3BB">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="5E28B770-B3A0-ED5A-19C2-E007FE5CA381">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_residencia" id="2107EB19-4098-81DA-EC54-DEED5157CC74">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_afiliado" id="C989428B-2D13-9B28-74B6-197587274A14">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="C418A035-323A-BBA1-382E-9D0FE8F096F4">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-17 01:54:33 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parentesco" id="9086B47B-3FD3-FB26-9BF9-7C47A3C87B7F">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-17 01:12:02 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contribuyente_tipo_documento" id="FF83EDD5-2B73-70EF-73D1-4418E40A9BF2">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:18:52 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contribuyente_numero_documento" id="D197832A-3894-77A0-E02A-62A2446AAFAB">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:18:52 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contribuyente_tipo_documento1" id="17E16403-B31B-09B8-F0C5-5DF27FC74AE7">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>A7383FA9-C062-9F47-8091-4E19D4CB621F</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="737818F5-599D-15F2-5A16-C8B5B54DC170" referredColumn="FF56EC8A-597F-2D08-2D7F-9DC2D9EC2CA0"/>
+</associations>
+</Column>
+<Column name="Contribuyente_numero_documento1" id="C05BA37F-F797-687B-8F20-5C906621F6DF">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>54C11766-65FC-827F-E830-A39F2687D1B8</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="737818F5-599D-15F2-5A16-C8B5B54DC170" referredColumn="10B79868-0F2D-FBEF-2C0F-A92DF99FDC16"/>
+</associations>
+</Column>
+<Column name="parentesco1" id="F2DD17AF-F708-7423-B57B-C1C488C7DE1A">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:38 UTC</createdTime>
+<generatorID>B7276392-4A43-1B4C-C177-8668EAA12FD0</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono1" id="A8144C4A-D7C2-62D3-05AC-1E969809EEC7">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:38 UTC</createdTime>
+<generatorID>EAF8C401-8FA6-9D12-7DA4-75F32C9BBFAA</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrdenDeServicio_id_orden" id="B1BF53A4-1D76-121A-5DF3-4D8B3BD46F2D">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:38 UTC</createdTime>
+<generatorID>DFC289F4-3284-B3FB-B546-56BE7073077A</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF0FFCF1-3BE3-44CD-B6D9-B80997FF4677" referredColumn="6A3E26AF-5DED-5936-BE2F-137DCDED19A6"/>
+</associations>
+</Column>
+<Column name="OrdenDeServicio_numero_registro_medico" id="F7F16DE7-97A9-8C61-9E60-DEB15F8555B5">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:38 UTC</createdTime>
+<generatorID>AC327F68-EF2D-45F8-1F17-3768BAE921BA</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF0FFCF1-3BE3-44CD-B6D9-B80997FF4677" referredColumn="5862B530-CB35-04D9-EC74-9153AB55D60B"/>
+</associations>
+</Column>
+<Column name="Cita_id_cita" id="B5F8A7DF-CC7E-0EB1-E9DC-F17D3795FE2C">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:38 UTC</createdTime>
+<generatorID>90FB1C88-CDEB-6AF5-BC92-57318F9B9863</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6E297B3-9DA3-5B3D-8622-EAF36BE3FE2A" referredColumn="494C19E7-C9F0-376D-FDD6-F2CE076DB27A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85CB02EC-B32C-950D-FC68-AAA497BC1800" name="Beneficiario_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FF5C60F-36D5-B741-B847-50634063A838"/>
+<colUsage columnID="78BCF39D-5195-CB2C-775A-97D0106A509F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73946C09-1054-C069-5878-E7990343641F" name="Beneficiario__IDX">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B12BC8D0-9ADB-0EC7-E082-5ECF3A0600E6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B1BF53A4-1D76-121A-5DF3-4D8B3BD46F2D"/>
+<colUsage columnID="F7F16DE7-97A9-8C61-9E60-DEB15F8555B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C5CACC8-2A51-4797-7E00-DDD4F873CE36" name="Beneficiario__IDXv1">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A57905F2-282B-FE9C-3F12-0B2CF23B8C66</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B5F8A7DF-CC7E-0EB1-E9DC-F17D3795FE2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A7742EA-FD5F-B597-5A30-6FBCC17810A4" name="Beneficiario_Contribuyente_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>42DD7F4C-E553-E01D-009E-326D5685CD68</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17E16403-B31B-09B8-F0C5-5DF27FC74AE7"/>
+<colUsage columnID="C05BA37F-F797-687B-8F20-5C906621F6DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C352DBE-D27D-2823-6133-14D2B6569E98" name="Beneficiario_OrdenDeServicio_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<generatorID>B12BC8D0-9ADB-0EC7-E082-5ECF3A0600E6</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1BF53A4-1D76-121A-5DF3-4D8B3BD46F2D"/>
+<colUsage columnID="F7F16DE7-97A9-8C61-9E60-DEB15F8555B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E906F6D2-2250-8493-70DA-868C356E5555" name="Beneficiario_Cita_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<generatorID>A57905F2-282B-FE9C-3F12-0B2CF23B8C66</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5F8A7DF-CC7E-0EB1-E9DC-F17D3795FE2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

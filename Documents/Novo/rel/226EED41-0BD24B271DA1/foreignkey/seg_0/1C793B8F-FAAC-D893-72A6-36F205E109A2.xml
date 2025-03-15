@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C793B8F-FAAC-D893-72A6-36F205E109A2" containerWithKeyObject="B87FB32D-3B78-8212-0C74-776BAB77A5FF" localFKIndex="F98D2B09-5E11-4722-D6C7-F302D0861EB8" name="Relation_36_IPS_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<generatorID>24209C28-ED6B-24F0-83EB-BBE5F2C0E4FA</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<referredTableLongName>IPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE05C10D-2D2F-1F20-D053-B1ED46C06C98</referredTableID>
+<keyObject>EB96C1F1-F423-946B-34E6-BB743B9BD616</keyObject>
+<referredKeyID>EB96C1F1-F423-946B-34E6-BB743B9BD616</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

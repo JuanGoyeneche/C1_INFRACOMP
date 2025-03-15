@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBB39A79-6D8E-E05F-321C-8A45320073DC" name="Relation_17">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IPS_nit" id="C4A940FD-39F8-EDCF-32BC-308CD98806E9">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0968C29B-24F4-B943-F303-ADF189385A40" referredColumn="B5EFC04A-5BA5-CD04-7E56-DFB232C4854B"/>
+</associations>
+</Column>
+<Column name="ServicioDeSalud_id_servicio" id="88B31473-B0A7-8785-3079-578A5951F59D">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A280FBD-08C0-26C2-F20C-8EFAD53CDF72" referredColumn="61CA64AA-A024-B6A8-7AC3-23BBA4A02B85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E916F3E-223E-101B-8867-3DAB7C65885C" name="Relation_17_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4A940FD-39F8-EDCF-32BC-308CD98806E9"/>
+<colUsage columnID="88B31473-B0A7-8785-3079-578A5951F59D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A5C7E93-0BA7-9528-C7B5-80D9F39DFD1A" name="Relation_17_IPS_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<generatorID>9B7C49C4-737A-A0A4-E2B6-335917F70081</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4A940FD-39F8-EDCF-32BC-308CD98806E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6593C48D-9280-46D5-85C9-64BB439A1A5B" name="Relation_17_ServicioDeSalud_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<generatorID>9B7C49C4-737A-A0A4-E2B6-335917F70081</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88B31473-B0A7-8785-3079-578A5951F59D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

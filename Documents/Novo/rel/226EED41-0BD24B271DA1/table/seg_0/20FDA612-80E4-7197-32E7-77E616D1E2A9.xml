@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20FDA612-80E4-7197-32E7-77E616D1E2A9" name="Relation_21">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cita_id_cita" id="9757E010-25CE-8AF9-835A-E5BE2A7DD2FA">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44EF3BAD-07FC-7FCB-81EE-7382255EC8FF" referredColumn="494C19E7-C9F0-376D-FDD6-F2CE076DB27A"/>
+</associations>
+</Column>
+<Column name="OrdenDeServicio_id_orden" id="B0FA7192-1C67-6DC3-0831-1675D9907C75">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57AB5B28-6329-0132-99F2-2BF64E8015EE" referredColumn="6A3E26AF-5DED-5936-BE2F-137DCDED19A6"/>
+</associations>
+</Column>
+<Column name="OrdenDeServicio_numero_registro_medico" id="6DDD1C31-373E-F756-CB83-40B538B6271F">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57AB5B28-6329-0132-99F2-2BF64E8015EE" referredColumn="5862B530-CB35-04D9-EC74-9153AB55D60B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="030C9C33-02C9-CD11-3032-B38212EBB47E" name="Relation_21_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<ownerDesignName>Novo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9757E010-25CE-8AF9-835A-E5BE2A7DD2FA"/>
+<colUsage columnID="B0FA7192-1C67-6DC3-0831-1675D9907C75"/>
+<colUsage columnID="6DDD1C31-373E-F756-CB83-40B538B6271F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B6C7EC7-3997-8320-3DA4-5CD565D4F4DC" name="Relation_21_Cita_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<generatorID>C8E625F8-3D26-4529-5FB1-4CF92C5BB549</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9757E010-25CE-8AF9-835A-E5BE2A7DD2FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C28BD8B-73D1-EA42-2078-2CA41072E57B" name="Relation_21_OrdenDeServicio_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<generatorID>C8E625F8-3D26-4529-5FB1-4CF92C5BB549</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0FA7192-1C67-6DC3-0831-1675D9907C75"/>
+<colUsage columnID="6DDD1C31-373E-F756-CB83-40B538B6271F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
