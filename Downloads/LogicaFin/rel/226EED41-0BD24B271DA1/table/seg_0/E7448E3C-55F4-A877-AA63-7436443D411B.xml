@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7448E3C-55F4-A877-AA63-7436443D411B" name="medico_cita">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:14:17 UTC</createdTime>
+<ownerDesignName>LogicaFin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Medico_numero_documento" id="0AFF5314-D4C4-F1DA-78C1-065EF4D5C918">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:14:25 UTC</createdTime>
+<ownerDesignName>LogicaFin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A125D5D-CA27-D608-00A9-48DDC84F8077" referredColumn="D8144C1B-4B09-BB7F-DDC1-08BEB566137C"/>
+</associations>
+</Column>
+<Column name="Cita_id_cita" id="D4398C37-9A39-04E3-2370-615192FC29B6">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:14:30 UTC</createdTime>
+<ownerDesignName>LogicaFin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB531D1E-EA1F-5B3B-C6EF-A5E9F7B25126" referredColumn="494C19E7-C9F0-376D-FDD6-F2CE076DB27A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A0090FD-10F4-F305-7CB9-FF50D0D7039D" name="medico_cita_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:14:38 UTC</createdTime>
+<ownerDesignName>LogicaFin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AFF5314-D4C4-F1DA-78C1-065EF4D5C918"/>
+<colUsage columnID="D4398C37-9A39-04E3-2370-615192FC29B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5A73BCA-89BA-1054-D8E3-683EE07FF1D9" name="medico_cita_Medico_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:14:25 UTC</createdTime>
+<ownerDesignName>LogicaFin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AFF5314-D4C4-F1DA-78C1-065EF4D5C918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AAC50A9-7BA2-D4E0-76D6-98ADEBF5FD9D" name="medico_cita_Cita_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:14:30 UTC</createdTime>
+<ownerDesignName>LogicaFin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4398C37-9A39-04E3-2370-615192FC29B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

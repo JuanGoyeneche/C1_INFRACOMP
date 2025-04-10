@@ -94,34 +94,6 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id orden" id="27807929-E5CF-41BF-3E16-01DDC3A49550">
-<createdBy>juang</createdBy>
-<createdTime>2025-03-15 17:16:39 UTC</createdTime>
-<generatorID>94A50D97-B36A-CA9F-C99C-100D1C26B9E5</generatorID>
-<ownerDesignName>Novo</ownerDesignName>
-<engineerTo>
-<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
-</engineerTo>
-<referedAttribute>F029B092-D3C1-C2A7-8BA9-187BFDD99156</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="numero registro medico" id="37FF063B-0430-8F75-3DB0-98182B24DE5E">
-<createdBy>juang</createdBy>
-<createdTime>2025-03-15 17:16:39 UTC</createdTime>
-<generatorID>94A50D97-B36A-CA9F-C99C-100D1C26B9E5</generatorID>
-<ownerDesignName>Novo</ownerDesignName>
-<engineerTo>
-<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
-</engineerTo>
-<referedAttribute>223BFD3F-644C-E44E-466B-A66AFDD51BA9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id cita" id="6B04AAA5-3B82-451E-EFA6-8E1D24F50292">
 <createdBy>juang</createdBy>
 <createdTime>2025-03-15 17:19:06 UTC</createdTime>

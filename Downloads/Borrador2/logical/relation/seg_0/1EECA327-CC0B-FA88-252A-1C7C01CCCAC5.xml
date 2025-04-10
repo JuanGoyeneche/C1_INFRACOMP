@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OrdenServicio_afiliado_FK" directorySegmentName="seg_0" id="1EECA327-CC0B-FA88-252A-1C7C01CCCAC5">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>3CB0ABDB-2AB7-677A-09D1-44C3B0B4A4A1</generatorID>
+<ownerDesignName>Borrador2</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<sourcePk>580E84F6-1F90-1905-4A3A-E5D9A4A8FBF3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70FD03D9-F5F7-0AA5-6FC7-3ED53948F415</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>025FFDD5-D346-4EC9-4F0E-6DD454AD4F7C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

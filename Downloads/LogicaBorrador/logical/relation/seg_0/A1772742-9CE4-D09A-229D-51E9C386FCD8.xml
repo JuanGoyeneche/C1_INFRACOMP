@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OrdenServicio_ServicioSalud_FK" directorySegmentName="seg_0" id="A1772742-9CE4-D09A-229D-51E9C386FCD8">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>F08FC635-C87B-2560-139F-753AE1A47631</generatorID>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<sourcePk>2882327E-81CC-2CF9-7AC7-B3F71E7666A7</sourcePk>
+<dominantRole>7EFD752D-42FC-C0CF-A8E5-5BFBAA50BD01</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7EFD752D-42FC-C0CF-A8E5-5BFBAA50BD01</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>025FFDD5-D346-4EC9-4F0E-6DD454AD4F7C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

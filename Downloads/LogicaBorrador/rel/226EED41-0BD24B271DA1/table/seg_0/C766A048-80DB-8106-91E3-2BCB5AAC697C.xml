@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C766A048-80DB-8106-91E3-2BCB5AAC697C" name="ServicioSalud">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:26:57 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="61CA64AA-A024-B6A8-7AC3-23BBA4A02B85">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:28:07 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="740D8692-317C-8151-D8D5-CD1C05581AF9">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:28:07 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="requiere_orden" id="DB9DF546-F099-28C0-D2CE-0215223CF43D">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:28:07 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EC46E94-D0A2-77DD-F313-E671EAD309C8" name="ServicioSalud_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:28:07 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61CA64AA-A024-B6A8-7AC3-23BBA4A02B85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

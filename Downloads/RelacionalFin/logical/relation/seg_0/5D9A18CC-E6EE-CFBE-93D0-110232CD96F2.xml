@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OrdenServicio_Medico_FK" directorySegmentName="seg_0" id="5D9A18CC-E6EE-CFBE-93D0-110232CD96F2">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>2780DE46-7861-AF92-3E49-56F84EDDE194</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<sourcePk>5F2CB377-10A1-ABDF-E22F-13BF4E38F6FA</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C2B0167-7D21-3304-0D4F-3FB4E157D5CC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>025FFDD5-D346-4EC9-4F0E-6DD454AD4F7C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

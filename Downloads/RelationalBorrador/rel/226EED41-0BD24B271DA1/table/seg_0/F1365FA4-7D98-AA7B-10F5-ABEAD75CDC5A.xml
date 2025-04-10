@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1365FA4-7D98-AA7B-10F5-ABEAD75CDC5A" name="Relation_29">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IPS_nit" id="973A248F-18A3-FA64-F3E8-1F3BE4DA9F52">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DE310AE-7AD0-54B8-A69A-B697EB933A9B" referredColumn="B5EFC04A-5BA5-CD04-7E56-DFB232C4854B"/>
+</associations>
+</Column>
+<Column name="ServicioSalud_id_servicio" id="3738ED73-AEDC-0A38-20A5-AC7421F0959D">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="714786C4-20EE-9994-0EFC-4B8355CE7E3B" referredColumn="61CA64AA-A024-B6A8-7AC3-23BBA4A02B85"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3BA39CA-C790-0A54-B50B-4765F527A3D9" name="Relation_29_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="973A248F-18A3-FA64-F3E8-1F3BE4DA9F52"/>
+<colUsage columnID="3738ED73-AEDC-0A38-20A5-AC7421F0959D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9856B24B-7F42-4C2E-6D55-DFC7C0C189B2" name="Relation_29_IPS_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>7FAE9204-7C87-4A71-8BF0-49142A6ADC07</generatorID>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="973A248F-18A3-FA64-F3E8-1F3BE4DA9F52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0149CB81-5F4F-1B21-FD21-3FE5F16997B2" name="Relation_29_ServicioSalud_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>7FAE9204-7C87-4A71-8BF0-49142A6ADC07</generatorID>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3738ED73-AEDC-0A38-20A5-AC7421F0959D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

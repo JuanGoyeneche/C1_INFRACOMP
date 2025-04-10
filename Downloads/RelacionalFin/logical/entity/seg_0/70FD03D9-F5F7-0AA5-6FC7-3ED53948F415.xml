@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70FD03D9-F5F7-0AA5-6FC7-3ED53948F415" name="Beneficiario">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>C21E16B9-5965-A95F-6B5F-9739983F1CAD</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo documento" id="FD78BACC-C511-C0BD-160E-C2A380125D9F">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>4FF5C60F-36D5-B741-B847-50634063A838</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero documento" id="C67C8C2C-E354-2A88-F9DB-BA32D8BF7D86">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>78BCF39D-5195-CB2C-775A-97D0106A509F</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="61CF4CC8-DC1C-8D14-EEEE-51106F00F3B1">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>3CCB5A05-11AC-0690-AC80-6339D696B3BB</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha nacimiento" id="354DB53C-36FF-2B91-1DF6-3551999573B0">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>5E28B770-B3A0-ED5A-19C2-E007FE5CA381</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion residencia" id="628901A6-E6FD-D208-2339-8DA125E55312">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>2107EB19-4098-81DA-EC54-DEED5157CC74</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo afiliado" id="08498D5A-6D95-55BB-570A-63D550FCCCE4">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>C989428B-2D13-9B28-74B6-197587274A14</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parentesco" id="B7276392-4A43-1B4C-C177-8668EAA12FD0">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-17 00:57:31 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo documento" id="A7383FA9-C062-9F47-8091-4E19D4CB621F">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:57:54 UTC</createdTime>
+<generatorID>42DD7F4C-E553-E01D-009E-326D5685CD68</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<referedAttribute>95D65704-B80D-06C2-1267-3D7BAD05E2E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero documento" id="54C11766-65FC-827F-E830-A39F2687D1B8">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:57:54 UTC</createdTime>
+<generatorID>42DD7F4C-E553-E01D-009E-326D5685CD68</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<referedAttribute>8E2408B0-3A64-0B83-0A25-8B1F9D07755F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="EAF8C401-8FA6-9D12-7DA4-75F32C9BBFAA">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-17 01:55:39 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="580E84F6-1F90-1905-4A3A-E5D9A4A8FBF3" name="afiliado PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>85CB02EC-B32C-950D-FC68-AAA497BC1800</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD78BACC-C511-C0BD-160E-C2A380125D9F</attributeRef>
+<attributeRef>C67C8C2C-E354-2A88-F9DB-BA32D8BF7D86</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="025FFDD5-D346-4EC9-4F0E-6DD454AD4F7C" name="OrdenDeServicio">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>E95678D1-E319-6B33-ED6F-35181316A603</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id orden" id="F029B092-D3C1-C2A7-8BA9-187BFDD99156">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>6A3E26AF-5DED-5936-BE2F-137DCDED19A6</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="servicio medico" id="AA2C41CD-F889-A477-45EA-C325F23D9FCF">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>1BEFEC01-32AF-F05D-D596-CBBD902F9959</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="BEA95184-90D5-C606-DD0D-584321D9D475">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>80F7F962-7EB3-5EB7-4CC8-B5A002180009</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vigencia" id="83BD7864-4640-847C-F502-14CD63599CFE">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>7D97E277-E354-9F42-0AED-8EF7ECFA3D82</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero registro medico" id="223BFD3F-644C-E44E-466B-A66AFDD51BA9">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 21:59:39 UTC</createdTime>
+<generatorID>5D9A18CC-E6EE-CFBE-93D0-110232CD96F2</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<referedAttribute>032F6E72-79CA-D239-FA4A-EAF24AD56881</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo documento" id="D77C0945-42A5-ECFF-7F11-7976B680EB47">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-17 06:39:39 UTC</createdTime>
+<generatorID>94A50D97-B36A-CA9F-C99C-100D1C26B9E5</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>95D65704-B80D-06C2-1267-3D7BAD05E2E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero documento" id="EC584215-9FFB-5729-7E24-B8012F44E295">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-17 06:39:39 UTC</createdTime>
+<generatorID>94A50D97-B36A-CA9F-C99C-100D1C26B9E5</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8E2408B0-3A64-0B83-0A25-8B1F9D07755F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo documento1" id="6919EEFD-2355-A174-F3DA-F78584F08B0C">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-17 06:39:57 UTC</createdTime>
+<generatorID>B12BC8D0-9ADB-0EC7-E082-5ECF3A0600E6</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FD78BACC-C511-C0BD-160E-C2A380125D9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero documento1" id="A72664ED-6C91-0238-61E1-64FFC73BDD19">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-17 06:39:57 UTC</createdTime>
+<generatorID>B12BC8D0-9ADB-0EC7-E082-5ECF3A0600E6</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C67C8C2C-E354-2A88-F9DB-BA32D8BF7D86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C97D4531-BDBB-26E9-9763-A0A126010E6B" name="OrdenServicio PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>671737EF-3BAA-7B7C-34EC-3D3A5B303376</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F029B092-D3C1-C2A7-8BA9-187BFDD99156</attributeRef>
+<attributeRef>223BFD3F-644C-E44E-466B-A66AFDD51BA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

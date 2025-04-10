@@ -84,6 +84,66 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="tipo documento" id="D77C0945-42A5-ECFF-7F11-7976B680EB47">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-17 06:39:39 UTC</createdTime>
+<generatorID>94A50D97-B36A-CA9F-C99C-100D1C26B9E5</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>95D65704-B80D-06C2-1267-3D7BAD05E2E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero documento" id="EC584215-9FFB-5729-7E24-B8012F44E295">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-17 06:39:39 UTC</createdTime>
+<generatorID>94A50D97-B36A-CA9F-C99C-100D1C26B9E5</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8E2408B0-3A64-0B83-0A25-8B1F9D07755F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo documento1" id="6919EEFD-2355-A174-F3DA-F78584F08B0C">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-17 06:39:57 UTC</createdTime>
+<generatorID>B12BC8D0-9ADB-0EC7-E082-5ECF3A0600E6</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FD78BACC-C511-C0BD-160E-C2A380125D9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero documento1" id="A72664ED-6C91-0238-61E1-64FFC73BDD19">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-17 06:39:57 UTC</createdTime>
+<generatorID>B12BC8D0-9ADB-0EC7-E082-5ECF3A0600E6</generatorID>
+<ownerDesignName>Novo</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C67C8C2C-E354-2A88-F9DB-BA32D8BF7D86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C97D4531-BDBB-26E9-9763-A0A126010E6B" name="OrdenServicio PK">

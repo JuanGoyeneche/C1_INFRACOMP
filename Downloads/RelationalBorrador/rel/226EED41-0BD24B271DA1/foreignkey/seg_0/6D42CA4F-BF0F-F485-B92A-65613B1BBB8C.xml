@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6D42CA4F-BF0F-F485-B92A-65613B1BBB8C" containerWithKeyObject="8A9E6A72-1536-E17A-90D2-014A409F07B6" localFKIndex="5763BF76-9BD7-17F9-F12B-78178A58112C" name="Relation_35_OrdenServicio_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>5BAC3089-7D6E-0E68-AC0A-4D2CD23F2AA3</generatorID>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<referredTableLongName>OrdenServicio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E95678D1-E319-6B33-ED6F-35181316A603</referredTableID>
+<keyObject>671737EF-3BAA-7B7C-34EC-3D3A5B303376</keyObject>
+<referredKeyID>671737EF-3BAA-7B7C-34EC-3D3A5B303376</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_orden,Medico_numero_documento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

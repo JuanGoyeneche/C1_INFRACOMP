@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E68B0E3-EF06-F543-AB1A-1C5EE8597934" name="Cita">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>B603F906-DE99-EABB-0EC8-B999DB7AACAE</generatorID>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id cita" id="5054E86E-B39D-FD6E-4C79-FEA9F8C8EBD2">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>494C19E7-C9F0-376D-FDD6-F2CE076DB27A</generatorID>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha hora" id="B1DADDCE-ABF2-AEE2-B960-C1CA0ACD4CCC">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>D2E33C30-3769-5D19-8E05-E38342929A8E</generatorID>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="A0FF8D46-E44C-B418-2A13-79DD1070516B">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>0934142A-7328-FAD4-6ADE-06F111619DF9</generatorID>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ServicioSalud id servicio" id="359CA0B7-A77D-2685-7F69-8CC03B294F69">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>06BB68B2-D139-BC9D-A896-20F40EB3CB92</generatorID>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<referedAttribute>9CF386B4-AF3A-8550-22AF-D55BD05050A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IPS nit" id="A7EDC747-CC47-570A-A943-111CD166E76C">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:11:36 UTC</createdTime>
+<generatorID>48F5D416-C966-C6E8-7DEA-48F0892206E0</generatorID>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<referedAttribute>3685F280-85D1-F593-E94E-FA9B07B7CBA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43A7A4C9-AC4B-8A4F-A2D0-AC904C103863" name="cita PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>09433B9F-287E-5468-3C72-E6A7F1BFE56E</generatorID>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5054E86E-B39D-FD6E-4C79-FEA9F8C8EBD2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

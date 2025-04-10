@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C21E16B9-5965-A95F-6B5F-9739983F1CAD" name="Beneficiario">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:21:52 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_documento" id="4FF5C60F-36D5-B741-B847-50634063A838">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_documento" id="78BCF39D-5195-CB2C-775A-97D0106A509F">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3CCB5A05-11AC-0690-AC80-6339D696B3BB">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="5E28B770-B3A0-ED5A-19C2-E007FE5CA381">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_residencia" id="2107EB19-4098-81DA-EC54-DEED5157CC74">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_afiliado" id="C989428B-2D13-9B28-74B6-197587274A14">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="C418A035-323A-BBA1-382E-9D0FE8F096F4">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-17 01:54:33 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parentesco" id="9086B47B-3FD3-FB26-9BF9-7C47A3C87B7F">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-17 01:12:02 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contribuyente_tipo_documento" id="FF83EDD5-2B73-70EF-73D1-4418E40A9BF2">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:18:52 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contribuyente_numero_documento" id="D197832A-3894-77A0-E02A-62A2446AAFAB">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:18:52 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contribuyente_tipo_documento2" id="17E16403-B31B-09B8-F0C5-5DF27FC74AE7">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>A7383FA9-C062-9F47-8091-4E19D4CB621F</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="737818F5-599D-15F2-5A16-C8B5B54DC170" referredColumn="FF56EC8A-597F-2D08-2D7F-9DC2D9EC2CA0"/>
+</associations>
+</Column>
+<Column name="Contribuyente_numero_documento2" id="C05BA37F-F797-687B-8F20-5C906621F6DF">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>54C11766-65FC-827F-E830-A39F2687D1B8</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="737818F5-599D-15F2-5A16-C8B5B54DC170" referredColumn="10B79868-0F2D-FBEF-2C0F-A92DF99FDC16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85CB02EC-B32C-950D-FC68-AAA497BC1800" name="Beneficiario_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:24:05 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FF5C60F-36D5-B741-B847-50634063A838"/>
+<colUsage columnID="78BCF39D-5195-CB2C-775A-97D0106A509F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A7742EA-FD5F-B597-5A30-6FBCC17810A4" name="Beneficiario_Contribuyente_FKv2">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>42DD7F4C-E553-E01D-009E-326D5685CD68</generatorID>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17E16403-B31B-09B8-F0C5-5DF27FC74AE7"/>
+<colUsage columnID="C05BA37F-F797-687B-8F20-5C906621F6DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BE16338-989B-68B4-1967-A633AD2FC281" name="ordenservicio_beneficiario">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:20:23 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrdenServicio_id_orden" id="C5F0B749-EBC9-923B-CA94-E6546647CB49">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:20:41 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E58377E-890C-0310-5494-552D0A378EBC" referredColumn="6A3E26AF-5DED-5936-BE2F-137DCDED19A6"/>
+</associations>
+</Column>
+<Column name="Beneficiario_tipo_documento" id="3D5F89A0-01B2-1C94-01BD-41CDEEF94D45">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:20:46 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCF06AC8-D915-0679-8549-C4968394E1D1" referredColumn="4FF5C60F-36D5-B741-B847-50634063A838"/>
+</associations>
+</Column>
+<Column name="Beneficiario_numero_documento" id="DA2E147A-5C7E-95CC-06D6-5FAB9AEB9283">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:20:46 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCF06AC8-D915-0679-8549-C4968394E1D1" referredColumn="78BCF39D-5195-CB2C-775A-97D0106A509F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6226E2E-649B-6A72-359C-07F1598899AD" name="ordenservicio_beneficiario_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:20:57 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5F0B749-EBC9-923B-CA94-E6546647CB49"/>
+<colUsage columnID="DA2E147A-5C7E-95CC-06D6-5FAB9AEB9283"/>
+<colUsage columnID="3D5F89A0-01B2-1C94-01BD-41CDEEF94D45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8B15667-A0B6-7AD8-9AE3-6A9AA0938A1E" name="ordenservicio_beneficiario_OrdenServicio_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:20:41 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5F0B749-EBC9-923B-CA94-E6546647CB49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4852975-3905-AAC4-D6CF-27213B0A6F54" name="ordenservicio_beneficiario_Beneficiario_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:20:46 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D5F89A0-01B2-1C94-01BD-41CDEEF94D45"/>
+<colUsage columnID="DA2E147A-5C7E-95CC-06D6-5FAB9AEB9283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

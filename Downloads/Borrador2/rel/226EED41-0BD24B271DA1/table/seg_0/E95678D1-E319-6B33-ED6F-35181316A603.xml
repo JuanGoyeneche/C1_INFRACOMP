@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E95678D1-E319-6B33-ED6F-35181316A603" name="OrdenServicio">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:25:29 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orden" id="6A3E26AF-5DED-5936-BE2F-137DCDED19A6">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:26:52 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servicio_medico" id="1BEFEC01-32AF-F05D-D596-CBBD902F9959">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:26:52 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="80F7F962-7EB3-5EB7-4CC8-B5A002180009">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:26:52 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vigencia" id="7D97E277-E354-9F42-0AED-8EF7ECFA3D82">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:26:52 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ServicioSalud_id_servicio" id="40BFE9F4-11E7-2F0D-2364-6E5600BEFF43">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:30:43 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F08FC635-C87B-2560-139F-753AE1A47631" referredColumn="61CA64AA-A024-B6A8-7AC3-23BBA4A02B85"/>
+</associations>
+</Column>
+<Column name="afiliado_tipo_documento" id="1126CBFF-E9EA-0027-87A3-694FAF0D8BB9">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:57:03 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CB0ABDB-2AB7-677A-09D1-44C3B0B4A4A1" referredColumn="4FF5C60F-36D5-B741-B847-50634063A838"/>
+</associations>
+</Column>
+<Column name="afiliado_numero_documento" id="00AEC394-7665-FB72-C962-758034CC4C51">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:57:03 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CB0ABDB-2AB7-677A-09D1-44C3B0B4A4A1" referredColumn="78BCF39D-5195-CB2C-775A-97D0106A509F"/>
+</associations>
+</Column>
+<Column name="Medico_numero_documento" id="9F0B7403-62CE-6819-2378-EC4A1124ECC6">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 10:00:29 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cita_id_cita" id="BC3CF6E7-CD5A-A7CC-FF3E-4F68986BF738">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:30:14 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C076EF2-6EB7-DFEC-DF43-746114C0E304" referredColumn="494C19E7-C9F0-376D-FDD6-F2CE076DB27A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="671737EF-3BAA-7B7C-34EC-3D3A5B303376" name="OrdenServicio_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:26:52 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3E26AF-5DED-5936-BE2F-137DCDED19A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D9DDB8B-F527-F9AE-57BF-F9F7DAB960AC" name="OrdenServicio__IDX">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:32:24 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40BFE9F4-11E7-2F0D-2364-6E5600BEFF43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="026F23D2-1C71-3BAC-5547-69E1F1BF6EB4" name="OrdenServicio__IDXv1">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:32:28 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC3CF6E7-CD5A-A7CC-FF3E-4F68986BF738"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3503054F-7E3C-D696-6506-DA3298316F33" name="OrdenServicio_ServicioSalud_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:30:43 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40BFE9F4-11E7-2F0D-2364-6E5600BEFF43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3109D2D-97F1-5EA4-AF75-A17C5A011B3A" name="OrdenServicio_afiliado_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:57:03 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1126CBFF-E9EA-0027-87A3-694FAF0D8BB9"/>
+<colUsage columnID="00AEC394-7665-FB72-C962-758034CC4C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0A22F25-B261-E110-977C-8771B5554898" name="OrdenServicio_Cita_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:30:13 UTC</createdTime>
+<ownerDesignName>Borrador2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC3CF6E7-CD5A-A7CC-FF3E-4F68986BF738"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

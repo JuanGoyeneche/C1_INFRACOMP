@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B603F906-DE99-EABB-0EC8-B999DB7AACAE" name="Cita">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:17:57 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cita" id="494C19E7-C9F0-376D-FDD6-F2CE076DB27A">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:21:47 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora" id="D2E33C30-3769-5D19-8E05-E38342929A8E">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:21:47 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="0934142A-7328-FAD4-6ADE-06F111619DF9">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:21:47 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ServicioDeSalud_id_servicio" id="7A6E61C0-2EDF-A616-E240-90A8AB2A05B6">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:45:50 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="910B9AF5-2D7C-3F4C-0B5A-E9D03E05CDC7" referredColumn="61CA64AA-A024-B6A8-7AC3-23BBA4A02B85"/>
+</associations>
+</Column>
+<Column name="IPS_nit" id="B16CCB19-63F2-8501-7B37-DFE06D79F384">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:00:29 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F7BCE63-414F-F0BF-22D5-B2646A2EB695" referredColumn="B5EFC04A-5BA5-CD04-7E56-DFB232C4854B"/>
+</associations>
+</Column>
+<Column name="numero_registro_medico" id="6E30184B-0FB2-668C-CB41-4B1D3ABD0D8B">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:38 UTC</createdTime>
+<generatorID>8AEC770B-3214-5FB3-8C65-1AA4E9186366</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09433B9F-287E-5468-3C72-E6A7F1BFE56E" name="Cita_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:21:47 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="494C19E7-C9F0-376D-FDD6-F2CE076DB27A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A0A6279-8468-81B0-291C-C22B7315A588" name="Cita_ServicioDeSalud_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:45:50 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A6E61C0-2EDF-A616-E240-90A8AB2A05B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="477A06B8-791A-0E02-5121-B48E90E0CEE3" name="Cita_IPS_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:00:29 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B16CCB19-63F2-8501-7B37-DFE06D79F384"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA4CF2F2-3AEA-7CA6-463B-59ADA1536251" name="Cita_Medico_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-03-15 17:20:39 UTC</createdTime>
+<generatorID>8053526B-CADC-E00A-60DC-455028940428</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

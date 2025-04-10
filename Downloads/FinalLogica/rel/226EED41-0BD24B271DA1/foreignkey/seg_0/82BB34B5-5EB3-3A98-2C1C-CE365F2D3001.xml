@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82BB34B5-5EB3-3A98-2C1C-CE365F2D3001" containerWithKeyObject="1A9B8735-BA85-4966-4017-398E72682582" localFKIndex="0F64696A-8C86-A9AD-CE4D-48855BA83754" name="ips_medico_IPS_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 18:08:54 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<referredTableLongName>IPS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE05C10D-2D2F-1F20-D053-B1ED46C06C98</referredTableID>
+<keyObject>EB96C1F1-F423-946B-34E6-BB743B9BD616</keyObject>
+<referredKeyID>EB96C1F1-F423-946B-34E6-BB743B9BD616</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

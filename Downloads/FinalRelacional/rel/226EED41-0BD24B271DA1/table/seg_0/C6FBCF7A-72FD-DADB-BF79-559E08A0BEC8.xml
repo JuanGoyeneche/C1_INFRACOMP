@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6FBCF7A-72FD-DADB-BF79-559E08A0BEC8" name="cita_afiliado_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>FinalRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Beneficiario_tipo_documento" id="E8F9C831-183C-9FA6-FECB-01C5EE7DF912">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>FinalRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AC6A44D-0437-8F35-3306-7A5071CA154F" referredColumn="4FF5C60F-36D5-B741-B847-50634063A838"/>
+</associations>
+</Column>
+<Column name="Beneficiario_numero_documento" id="F112AE13-4836-2470-0B16-9313F6A8A307">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>FinalRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AC6A44D-0437-8F35-3306-7A5071CA154F" referredColumn="78BCF39D-5195-CB2C-775A-97D0106A509F"/>
+</associations>
+</Column>
+<Column name="Cita_id_cita" id="E11BE60F-BA44-42EF-AEAF-4013877C11F6">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>FinalRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="932AB5BC-063D-64A9-BE38-F7D4D80D86D8" referredColumn="494C19E7-C9F0-376D-FDD6-F2CE076DB27A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="864EC72D-F91A-312A-491F-E4DBEE092138" name="cita_afiliado_FK_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>FinalRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8F9C831-183C-9FA6-FECB-01C5EE7DF912"/>
+<colUsage columnID="F112AE13-4836-2470-0B16-9313F6A8A307"/>
+<colUsage columnID="E11BE60F-BA44-42EF-AEAF-4013877C11F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C04701F9-1E0D-A09E-19E0-5BE80470DA29" name="cita_afiliado_FK_Beneficiario_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>2F18F349-F297-0D1A-9A0E-876654F8716F</generatorID>
+<ownerDesignName>FinalRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8F9C831-183C-9FA6-FECB-01C5EE7DF912"/>
+<colUsage columnID="F112AE13-4836-2470-0B16-9313F6A8A307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6F3CABE-D4EE-5AF7-CCC8-BD921F1E4A7C" name="cita_afiliado_FK_Cita_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>2F18F349-F297-0D1A-9A0E-876654F8716F</generatorID>
+<ownerDesignName>FinalRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E11BE60F-BA44-42EF-AEAF-4013877C11F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

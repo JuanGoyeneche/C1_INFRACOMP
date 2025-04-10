@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FF49DC9-A8E2-24BE-EAF8-DC7FACCC03D1" name="Contribuyente">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:14:17 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_documento" id="FF56EC8A-597F-2D08-2D7F-9DC2D9EC2CA0">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:16:26 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_documento" id="10B79868-0F2D-FBEF-2C0F-A92DF99FDC16">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:16:26 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4C760355-98F4-CD0D-8795-F268E3E1A444">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:16:26 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="FE41483E-3E67-9CCD-6E5F-3161C43CA7AA">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:16:26 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_residencia" id="35DFE0BF-B955-FA99-91B6-631C38355CFB">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:16:26 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="C6BD915C-1083-574C-95D7-DEEE35BE65C1">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:16:26 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9FEB4AB-7FAD-09B3-02DD-78600CF69018" name="Contribuyente_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 17:16:26 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF56EC8A-597F-2D08-2D7F-9DC2D9EC2CA0"/>
+<colUsage columnID="10B79868-0F2D-FBEF-2C0F-A92DF99FDC16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

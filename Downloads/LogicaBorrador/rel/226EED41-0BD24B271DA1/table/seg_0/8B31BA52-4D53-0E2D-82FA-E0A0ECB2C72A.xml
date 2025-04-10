@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B31BA52-4D53-0E2D-82FA-E0A0ECB2C72A" name="Medico">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:15:53 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_documento" id="D8144C1B-4B09-BB7F-DDC1-08BEB566137C">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:17:27 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="037A16BD-43E5-0B74-1C12-B9AC9562E667">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:17:27 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_documento" id="38CF9F05-EE71-140F-DC89-BB5A19609E38">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:17:27 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_registro_medico" id="EE87259F-32DD-7B5F-2452-E7B0315375A6">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:17:27 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7311BF0-58C2-5A85-E334-8D82330669AE" name="Medico_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:17:27 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8144C1B-4B09-BB7F-DDC1-08BEB566137C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Medico_IPS_FK" directorySegmentName="seg_0" id="6DB14167-84D4-679B-C00D-53C78C74A862">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>8D82FF22-6F4C-53CB-232E-5887C48C5244</generatorID>
+<ownerDesignName>Borrador2</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<sourcePk>E6FF8C8B-4D19-F309-CB4C-9FEB62DE1F4D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FB160DF0-0764-AB03-28AD-54DD30EDD08C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C2B0167-7D21-3304-0D4F-3FB4E157D5CC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

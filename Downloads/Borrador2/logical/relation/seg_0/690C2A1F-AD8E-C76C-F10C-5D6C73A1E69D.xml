@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IPS_EPS_FK" directorySegmentName="seg_0" id="690C2A1F-AD8E-C76C-F10C-5D6C73A1E69D">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>AC0E4472-877F-E0EE-6856-AF84F9D3CAB6</generatorID>
+<ownerDesignName>Borrador2</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<sourcePk>D5868F5F-CA2C-BDF2-4008-0328746B803F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>779B8DD3-AF1B-C272-B9A0-FA9DF2087D44</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FB160DF0-0764-AB03-28AD-54DD30EDD08C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

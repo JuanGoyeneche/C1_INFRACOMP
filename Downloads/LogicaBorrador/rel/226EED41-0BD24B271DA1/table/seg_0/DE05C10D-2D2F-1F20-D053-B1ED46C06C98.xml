@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE05C10D-2D2F-1F20-D053-B1ED46C06C98" name="IPS">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 08:18:35 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nit" id="B5EFC04A-5BA5-CD04-7E56-DFB232C4854B">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 08:31:59 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="CD84B6CB-52D7-A1E7-E710-D1EB67F323D7">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 08:31:59 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="4B1EB443-EE11-BD21-A94A-FE1272D7CE09">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 08:32:48 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="B9356A08-B29D-3216-8BF2-5906D9D22B0B">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 08:52:16 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPS_nit" id="C0DDFD2A-790A-5B52-DAF5-15C845C2E227">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:39:14 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB96C1F1-F423-946B-34E6-BB743B9BD616" name="IPS_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 08:31:59 UTC</createdTime>
+<ownerDesignName>LogicaBorrador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5EFC04A-5BA5-CD04-7E56-DFB232C4854B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

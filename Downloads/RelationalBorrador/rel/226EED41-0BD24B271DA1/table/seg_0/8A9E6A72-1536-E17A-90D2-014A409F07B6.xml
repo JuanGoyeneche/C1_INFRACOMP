@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A9E6A72-1536-E17A-90D2-014A409F07B6" name="Relation_35">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrdenServicio_id_orden" id="A02DD874-9B05-87E5-A46B-CED9E7E15F7A">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D42CA4F-BF0F-F485-B92A-65613B1BBB8C" referredColumn="6A3E26AF-5DED-5936-BE2F-137DCDED19A6"/>
+</associations>
+</Column>
+<Column name="OrdenServicio_Medico_numero_documento" id="0914EC07-BA39-B8CE-E8AE-CB24AD8B8ABA">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D42CA4F-BF0F-F485-B92A-65613B1BBB8C" referredColumn="9F0B7403-62CE-6819-2378-EC4A1124ECC6"/>
+</associations>
+</Column>
+<Column name="Contribuyente_tipo_documento" id="3C65EBBD-B6A3-05B7-D6CD-46961FEDAAAA">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:38 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18F783F2-9714-B54F-EB42-EED30DE98040" referredColumn="FF56EC8A-597F-2D08-2D7F-9DC2D9EC2CA0"/>
+</associations>
+</Column>
+<Column name="Contribuyente_numero_documento" id="1503014A-F6B8-EF87-3845-9B89BCDF638E">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:38 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18F783F2-9714-B54F-EB42-EED30DE98040" referredColumn="10B79868-0F2D-FBEF-2C0F-A92DF99FDC16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A276BB62-57AB-F2B8-4212-BDED2445FD7B" name="Relation_35_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A02DD874-9B05-87E5-A46B-CED9E7E15F7A"/>
+<colUsage columnID="0914EC07-BA39-B8CE-E8AE-CB24AD8B8ABA"/>
+<colUsage columnID="3C65EBBD-B6A3-05B7-D6CD-46961FEDAAAA"/>
+<colUsage columnID="1503014A-F6B8-EF87-3845-9B89BCDF638E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5763BF76-9BD7-17F9-F12B-78178A58112C" name="Relation_35_OrdenServicio_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>5BAC3089-7D6E-0E68-AC0A-4D2CD23F2AA3</generatorID>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A02DD874-9B05-87E5-A46B-CED9E7E15F7A"/>
+<colUsage columnID="0914EC07-BA39-B8CE-E8AE-CB24AD8B8ABA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5BD9941-56DD-971B-8A34-2ABE334F12C2" name="Relation_35_Contribuyente_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 20:29:37 UTC</createdTime>
+<generatorID>5BAC3089-7D6E-0E68-AC0A-4D2CD23F2AA3</generatorID>
+<ownerDesignName>RelationalBorrador</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C65EBBD-B6A3-05B7-D6CD-46961FEDAAAA"/>
+<colUsage columnID="1503014A-F6B8-EF87-3845-9B89BCDF638E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

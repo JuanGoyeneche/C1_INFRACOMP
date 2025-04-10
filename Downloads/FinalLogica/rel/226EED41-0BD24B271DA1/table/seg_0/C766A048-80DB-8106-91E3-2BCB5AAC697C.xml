@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C766A048-80DB-8106-91E3-2BCB5AAC697C" name="ServicioDeSalud">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:26:57 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="61CA64AA-A024-B6A8-7AC3-23BBA4A02B85">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:28:07 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="740D8692-317C-8151-D8D5-CD1C05581AF9">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:28:07 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="requiere_orden" id="DB9DF546-F099-28C0-D2CE-0215223CF43D">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:28:07 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IPS_nit" id="65F79DBA-F7C6-3B87-E150-94CCC3895548">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-17 01:06:37 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A751726-85A5-9F9A-DF4A-D3A2E3CFD603" referredColumn="B5EFC04A-5BA5-CD04-7E56-DFB232C4854B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EC46E94-D0A2-77DD-F313-E671EAD309C8" name="ServicioSalud_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 09:28:07 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61CA64AA-A024-B6A8-7AC3-23BBA4A02B85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43F77A4A-1B17-A88B-B92F-4CD69EA4FEF7" name="ServicioSalud_IPS_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-17 01:06:37 UTC</createdTime>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65F79DBA-F7C6-3B87-E150-94CCC3895548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

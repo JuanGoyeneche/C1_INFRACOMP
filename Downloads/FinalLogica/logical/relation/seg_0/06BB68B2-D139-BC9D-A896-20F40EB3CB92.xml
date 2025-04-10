@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cita_ServicioSalud_FK" directorySegmentName="seg_0" id="06BB68B2-D139-BC9D-A896-20F40EB3CB92">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 15:33:36 UTC</createdTime>
+<generatorID>910B9AF5-2D7C-3F4C-0B5A-E9D03E05CDC7</generatorID>
+<ownerDesignName>FinalLogica</ownerDesignName>
+<engineerTo>
+<item key="226EED41-0B75-AF1E-D4F2-0BD24B271DA1" value="true"/>
+</engineerTo>
+<sourcePk>2882327E-81CC-2CF9-7AC7-B3F71E7666A7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7EFD752D-42FC-C0CF-A8E5-5BFBAA50BD01</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9E68B0E3-EF06-F543-AB1A-1C5EE8597934</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

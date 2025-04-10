@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EF0DB37-0EC0-381B-3883-FD5A3FAF50A9" name="contribuyente_ordenServicio">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:03:09 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contribuyente_tipo_documento" id="901F8160-D743-7D4C-BC6E-7CCEC59CBCEF">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:03:23 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E6668B8-DDA8-37E1-992F-5E45E5221E03" referredColumn="FF56EC8A-597F-2D08-2D7F-9DC2D9EC2CA0"/>
+</associations>
+</Column>
+<Column name="Contribuyente_numero_documento" id="4F19F7D6-1C5C-28CE-971A-4DFC70F69406">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:03:23 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E6668B8-DDA8-37E1-992F-5E45E5221E03" referredColumn="10B79868-0F2D-FBEF-2C0F-A92DF99FDC16"/>
+</associations>
+</Column>
+<Column name="OrdenServicio_id_orden" id="35CDE377-B182-6843-4D5C-18C936C94672">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:03:30 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D73D556-E9A7-B702-3838-D9F9D5F5A500" referredColumn="6A3E26AF-5DED-5936-BE2F-137DCDED19A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3ABEEC6-DCC0-EFB4-5B81-6B7C7722D2E3" name="contribuyente_ordenServicio_PK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:03:45 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="901F8160-D743-7D4C-BC6E-7CCEC59CBCEF"/>
+<colUsage columnID="4F19F7D6-1C5C-28CE-971A-4DFC70F69406"/>
+<colUsage columnID="35CDE377-B182-6843-4D5C-18C936C94672"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E927680-4C71-E0E4-2E3D-E02242719A07" name="contribuyente_ordenServicio_Contribuyente_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:03:23 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="901F8160-D743-7D4C-BC6E-7CCEC59CBCEF"/>
+<colUsage columnID="4F19F7D6-1C5C-28CE-971A-4DFC70F69406"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5B2ECE2-8341-114E-A7A8-D9553D7E88FE" name="contribuyente_ordenServicio_OrdenServicio_FK">
+<createdBy>juang</createdBy>
+<createdTime>2025-02-16 19:03:30 UTC</createdTime>
+<ownerDesignName>RelacionalFin</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35CDE377-B182-6843-4D5C-18C936C94672"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
